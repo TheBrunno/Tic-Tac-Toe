@@ -8,25 +8,41 @@
     <link rel="stylesheet" href="css/quadro.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="flex-container">
-        <div class="column" id="left">
-            <div id="one"></div>
-            <div id="two"></div>
-            <div id="three"></div>
+    <main>
+        <article id="player_one">
+            <div>
+                <p id="gamer_one">Jogador 1</p>
+                <p class="points">Pontos: <span id="points_gamer_one">0</span></p>
+            </div>
+        </article>
+        <div class="flex-container">
+            <div class="column" id="left">
+                <div id="one"></div>
+                <div id="two"></div>
+                <div id="three"></div>
+            </div>
+            <div class="column" id="quite">
+                <div id="four"></div>
+                <div id="five"></div>
+                <div id="six"></div>
+            </div>
+            <div class="column" id="right">
+                <div id="seven"></div>
+                <div id="eight"></div>
+                <div id="nine"></div>
+            </div>
         </div>
-        <div class="column" id="quite">
-            <div id="four"></div>
-            <div id="five"></div>
-            <div id="six"></div>
-        </div>
-        <div class="column" id="right">
-            <div id="seven"></div>
-            <div id="eight"></div>
-            <div id="nine"></div>
-        </div>
-    </div>
+        <article id="player_two">
+            <div>
+                <p id="gamer_two">Jogador 2</p>
+                <p class="points">Pontos: <span id="points_gamer_two">0</span></p>
+            </div>
+        </article>
+    </main>
     <script src="js/reset.js"></script>
     <script src="js/gamer.js"></script>
     <script src="js/elements.js"></script>

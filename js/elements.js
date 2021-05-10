@@ -34,3 +34,7 @@ nine = {
     "click": false,
     "caminho": document.getElementById("nine"),
 };
+const player_one = document.getElementById('gamer_one')
+const player_two = document.getElementById('gamer_two')
+const points_player_one = document.getElementById('points_gamer_one')
+const points_player_two = document.getElementById('points_gamer_two')

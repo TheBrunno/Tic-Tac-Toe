@@ -39,9 +39,11 @@ function verific(gamer){
 }
 var gamer_one = {
     "gamer": 1,
-    "jogadas": []
+    "jogadas": [],
+    "vitorias": 0
 }
 var gamer_two = {
     "gamer": 2,
-    "jogadas": []
+    "jogadas": [],
+    "vitorias": 0
 }

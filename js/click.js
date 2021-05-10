@@ -7,6 +7,15 @@ function Clicked(pos, gamer){
         return 2
     }
 }
+function Ganhar(winner){
+    alert(`Jogador ${winner["gamer"]} ganhou!`)
+    Reset()
+}
+function Empate(){
+    alert('Empatou')
+    Reset()
+}
+
 var vez = Math.round((Math.random() * 1));
 var num_gamer;
 one["caminho"].onclick = function(){

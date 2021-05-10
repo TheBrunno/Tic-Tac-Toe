@@ -1,19 +1,17 @@
 function Clicked(pos, gamer){
     if(gamer % 2 == 0){
-        pos.style.backgroundColor = '#00F'
+        pos.style.backgroundImage = 'url("img/o.png")'
         return 1
     }else{
-        pos.style.backgroundColor = '#F00'
+        pos.style.backgroundImage = 'url("img/x.png")'
         return 2
     }
 }
 function Ganhar(winner){
-    alert(`Jogador ${winner["gamer"]} ganhou!`)
-    Reset()
+    setTimeout(function(){alert(`Jogador ${winner["gamer"]} ganhou!`); Reset()}, 350);
 }
 function Empate(){
-    alert('Empatou')
-    Reset()
+    setTimeout(function(){alert(`Deu velha :(`); Reset()}, 350);
 }
 
 var vez = Math.round((Math.random() * 1));

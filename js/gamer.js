@@ -33,7 +33,7 @@ function verific(gamer){
        gamer["jogadas"].indexOf(5) > -1 && 
        gamer["jogadas"].indexOf(3) > -1))
        {Ganhar(gamer)}
-    if(gamer["jogadas"].length > 4){
+    else if(gamer_one["jogadas"].length + gamer_two["jogadas"].length == 9){
         Empate()
     }
 }

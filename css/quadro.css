@@ -7,6 +7,8 @@
     width: 200px;
     height: 200px;
     margin: 1px 1px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .column div:first-child{
     border-top: none;

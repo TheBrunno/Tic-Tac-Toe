@@ -1,15 +1,15 @@
 function Reset(){
     gamer_one["jogadas"] = []
     gamer_two["jogadas"] = []
-    one["caminho"].style.backgroundColor = '#FFF'
-    two["caminho"].style.backgroundColor = '#FFF'
-    three["caminho"].style.backgroundColor = '#FFF'
-    four["caminho"].style.backgroundColor = '#FFF'
-    five["caminho"].style.backgroundColor = '#FFF'
-    six["caminho"].style.backgroundColor = '#FFF'
-    seven["caminho"].style.backgroundColor = '#FFF'
-    eight["caminho"].style.backgroundColor = '#FFF'
-    nine["caminho"].style.backgroundColor = '#FFF'
+    one["caminho"].style.backgroundImage = 'none'
+    two["caminho"].style.backgroundImage = 'none'
+    three["caminho"].style.backgroundImage = 'none'
+    four["caminho"].style.backgroundImage = 'none'
+    five["caminho"].style.backgroundImage = 'none'
+    six["caminho"].style.backgroundImage = 'none'
+    seven["caminho"].style.backgroundImage = 'none'
+    eight["caminho"].style.backgroundImage = 'none'
+    nine["caminho"].style.backgroundImage = 'none'
     one["click"] = false
     two["click"] = false
     three["click"] = false

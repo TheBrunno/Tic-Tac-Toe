@@ -1,0 +1,22 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.column div{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 1px 1px 0 0;
+}
+.column div:first-child{
+    border-top: none;
+}
+.column div:last-child{
+    border-bottom: none;
+}
+#left div{
+    border-left: none;
+}
+#right div{
+    border-right: none;
+}

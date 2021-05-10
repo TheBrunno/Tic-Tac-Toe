@@ -32,9 +32,10 @@ function verific(gamer){
        gamer["jogadas"].indexOf(7) > -1 && 
        gamer["jogadas"].indexOf(5) > -1 && 
        gamer["jogadas"].indexOf(3) > -1))
-       {
-        alert(`Jogador ${gamer["gamer"]} ganhou!`)
-       }
+       {Ganhar(gamer)}
+    if(gamer["jogadas"].length > 4){
+        Empate()
+    }
 }
 var gamer_one = {
     "gamer": 1,

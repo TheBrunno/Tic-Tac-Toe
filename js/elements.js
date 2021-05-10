@@ -1,9 +1,36 @@
-const one = document.getElementById("one")
-const two = document.getElementById("two")
-const three = document.getElementById("three")
-const four = document.getElementById("four")
-const five = document.getElementById("five")
-const six = document.getElementById("six")
-const seven = document.getElementById("seven")
-const eight = document.getElementById("eight")
-const nine = document.getElementById("nine")
+one = {
+    "click": false,
+    "caminho": document.getElementById("one"),
+};
+two = {
+    "click": false,
+    "caminho": document.getElementById("two"),
+};
+three = {
+    "click": false,
+    "caminho": document.getElementById("three"),
+};
+four = {
+    "click": false,
+    "caminho": document.getElementById("four"),
+};
+five = {
+    "click": false,
+    "caminho": document.getElementById("five"),
+};
+six = {
+    "click": false,
+    "caminho": document.getElementById("six"),
+};
+seven = {
+    "click": false,
+    "caminho": document.getElementById("seven"),
+};
+eight = {
+    "click": false,
+    "caminho": document.getElementById("eight"),
+};
+nine = {
+    "click": false,
+    "caminho": document.getElementById("nine"),
+};
